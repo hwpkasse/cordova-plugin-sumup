@@ -17,8 +17,7 @@ repositories {
 
 allprojects {
    repositories {
-      // maven { url 'https://maven.sumup.com/releases' }
-      maven { url 'https://jitpack.io' }
+      maven { url 'https://maven.sumup.com/releases' }
    }
 }
 
@@ -59,5 +58,5 @@ android {
 
 dependencies {
     implementation 'com.android.support:appcompat-v7:26.1.0'
-    implementation 'com.github.hwpkasse:sumup-android-sdk:3.4.0'
+    implementation 'com.sumup:merchant-sdk:3.4.0'
 }
